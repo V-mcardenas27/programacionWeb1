@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Posicionamiento CSS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Posicionamiento en CSS</h1>
+
+<!-- STATIC -->
+<div class="seccion">
+  <h2>1. Static (por defecto)</h2>
+  <p>Los elementos aparecen uno tras otro. No se puede mover con top/left.</p>
+  <div class="contenedor">
+    <div class="caja">caja 1</div>
+    <div class="caja">caja 2</div>
+  </div>
+</div>
+
+<!-- RELATIVE -->
+<div class="seccion">
+  <h2>2. Relative</h2>
+  <p>Se mueve desde donde estaría normalmente. Su espacio original se conserva.</p>
+  <div class="contenedor">
+    <div class="caja">caja 1</div>
+    <div class="caja rel">top:15 left:20</div>
+  </div>
+</div>
+
+<!-- ABSOLUTE -->
+<div class="seccion">
+  <h2>3. Absolute</h2>
+  <p>Sale del flujo. Se posiciona respecto al padre con position: relative.</p>
+  <div class="contenedor">
+    <div class="caja">caja 1</div>
+    <div class="caja abs">top:10 right:10</div>
+  </div>
+</div>
+
+<!-- FIXED -->
+<div class="seccion">
+  <h2>4. Fixed</h2>
+  <p>Se fija en la pantalla sin importar el scroll. El botón azul de la esquina inferior derecha es un ejemplo real</p>
+</div>
+
+<!-- STICKY -->
+<div class="seccion">
+  <h2>5. Sticky</h2>
+  <p>Normal hasta que llega al borde, ahí se pega. Hacé scroll abajo.</p>
+  <div class="scroll-box">
+    <div class="caja sticky">soy sticky</div>
+    <div class="relleno">contenido...</div>
+  </div>
+</div>
+
+<!-- FIXED REAL -->
+<div class="fixed-real">position: fixed</div>
+
+</body>
+</html>

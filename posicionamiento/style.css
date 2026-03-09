@@ -1,0 +1,85 @@
+body { 
+    font-family: Arial, 
+    sans-serif; 
+    padding: 20px; 
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+h1 { text-align: center; }
+
+.seccion { margin: 30px 0; }
+.seccion h2 { margin-bottom: 6px; }
+.seccion p  { margin: 0 0 10px; font-size: 0.9rem; color: #555; }
+
+.caja {
+width: 100px;
+height: 50px;
+background: lightblue;
+border: 2px solid steelblue;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 0.8rem;
+}
+
+.contenedor {
+background: #eee;
+border: 1px dashed #aaa;
+border-radius: 10px;
+padding: 10px;
+height: 120px;
+position: relative;
+}
+
+.rel {
+position: relative;
+top: 15px;
+left: 20px;
+background: lightgreen;
+border-color: green;
+}
+
+.abs {
+position: absolute;
+top: 10px;
+right: 10px;
+background: lightsalmon;
+border-color: tomato;
+}
+
+/* fixed real */
+.fixed-real {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: steelblue;
+color: white;
+padding: 10px 16px;
+border-radius: 10px;
+font-size: 0.8rem;
+}
+
+/* sticky */
+.scroll-box {
+height: 130px;
+overflow-y: scroll;
+border: 1px dashed #aaa;
+border-radius: 10px;
+background: #eee;
+}
+.sticky {
+position: sticky;
+top: 0;
+width: 100%;
+background: plum;
+border-color: purple;
+border-radius: 0;
+}
+.relleno {
+height: 300px;
+padding: 10px;
+font-size: 0.8rem;
+color: #888;
+}
