@@ -1,0 +1,23 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+h1 {
+    color: red;
+}
+
+.ejemplo {
+    color: blue;
+}
+
+#ejemplo2 {
+    color: purple;
+}
+
+article h3 {
+    color: red;
+}
+
+.contenedor1 > p {
+    color: pink;
+}
